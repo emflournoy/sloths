@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* ----- overall ----- */
+
+
+a:link    { color: #99ffcc;  }
+a:visited { color: #c7d1cc;  }
+a:hover   { color: #ffd91c; }
+a:active  { color: #c6ad2d;  }
+
+/* #99ffccm sea green - #345a99 light blue*/
+
+header {
+  height: 215px;
+  font-family: 'slabo 27px', serif;
+  font-size: 100px;
+  float: center;
+  text-align: center;
+  background-color: #f4efe6;
+
+}
+
+main {
+  padding-top: 50px;
+  background-color: #4c4434;
+  font-family: 'raleway', sans-serif;
+  font-size: 25px;
+  color: #f2dcb0;
+  padding-bottom: 10%
+
+}
+
+footer {
+  font-family: 'source', serif;
+  font-size: 14px
+}
+
+
+/* ----- elements ----- */
+header h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h2 {
+
+  font-family: 'slabo 27px', serif;
+  font-size: 45px;
+  float: center;
+  height: 80px;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-color: white;
+}
+
+hr {
+	height: 2px;
+	background-color: #d4d4d4;
+	border: none;
+	margin: 60px 0 100px 0;
+}
+
+input{
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  width: 600px;
+  border: 5px #a89a7e solid;
+}
+
+/* ----- classes ----- */
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.large-images {
+  display: block;
+  margin: auto;
+  position: relative;
+
+}
+
+.slothMe-images {
+  display: block;
+  margin: auto;
+  position: right;
+  width: 400px;
+  border: #a89a7e solid
+}
+
+.userInputImage {
+  display: block;
+  margin: auto;
+  position: left;
+  width: 400px;
+  border: #a89a7e solid
+}
+
+hr {
+	height: 2px;
+	background-color: #d4d4d4;
+	border: none;
+	margin: 60px 0 100px 0;
+}
+
+
+
+/* ----- id ----- */
+
+#slothHeaderImage {
+display: block;
+margin: auto;
+width: 800px;
+border: 10px #a89a7e solid;
+}
+
+#links {
+  font-size: 60px
+}
+
+
+/*----jokes----*/
+
+body {
+  padding-top: 20px;
+  background: #4c4434;
+}
+
+.joke {
+  width: 500px;
+  margin: auto;
+  background: #b0e8cc;
+  color: #fff;
+  font-family: 'slabo 27px';
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 5px #000;
+}
+
+.joke p {
+   margin: 0px;
+   padding: 30px 0;
+}
+
+button {
+  position: relative;
+  top: -20px;
+    background-color:#99bf7a;
+  border: none;
+    display:block;
+  margin: auto;
+    cursor:pointer;
+    color:#fff;
+  font-family: 'raleway';
+    font-size:30px;
+    padding:6px 18px;
+    text-decoration:none;
+  box-shadow: 0px 0px 5px #000;
+}
+
+button:hover { background-color:#727272; }
+button:focus { outline: none;            }
+
+#morebutton  {
+  top: 20px;
+  font-size: 30px
+}
+
+
+/* Add and Remove using JS */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
